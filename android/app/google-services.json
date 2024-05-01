@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957701581785",
+    "project_id": "flutter-firebase-venkat",
+    "storage_bucket": "flutter-firebase-venkat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957701581785:android:0d03fed37ca0aef17747c8",
+        "android_client_info": {
+          "package_name": "com.example.venkat_databases"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOO685cufn8rwj05ezq3kbhcoGnItVWDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

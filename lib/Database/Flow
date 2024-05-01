@@ -1,0 +1,50 @@
+  Flow Of Database
+
+  Step -1
+1. Create Student List Screen.
+   -add Appbar in title.
+   -add Floating navigation button in Icons,Navigator to next page.
+
+2. Create Student Form Screen.
+   -add Appbar in title.
+   -add TextFormFeild Controller.
+   -add TextFormFeild in StudentName,StudentMobile,StudentEmailNo
+   -add Elevated Button inside create Save method and call.
+   -inside save method data will be printed.
+ *********************************************************
+   Step -2
+1. Create DatabaseHelper Class
+   -add Constant Var.
+   -add Declare database var.
+   -Create Initialization methoed and create database.
+   -add Create method and update method.
+   -add insert method using to store Map(Key, Value)pair.
+
+2. Main Class
+   -create object for databasehelper class.
+   -call initialization method.
+
+3. Save Method
+   -call insert method.
+   -store row id and display log.
+ *********************************************************
+   Step -3
+1. DatabaseHelper Class
+   -add getAllStudentsRecords.
+
+2. Temp class
+   -create Model class.
+
+3. StudentListScreen Class
+   -studentlistform create initstate.
+   -when screen launch initstate first execute.
+   -inside initstate call getstudentdetails method.
+   -inside getstudentdetails method call getAllStudentRecord method to get table.
+   -passing data in model class.
+   -store in list
+
+4. StudentListScreen Class
+   -show Data in Display.
+   -show Scaffold SnackBar Mgs.
+ *********************************************************
+      Step -3
